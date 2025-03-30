@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background with light teal color -->
+  <rect width="400" height="400" fill="#c1d7d7"/>
+  
+  <!-- Main rounded square container with dark blue background instead of white -->
+  <rect x="50" y="50" width="300" height="300" rx="40" ry="40" fill="#1e3a5f" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.2))"/>
+  
+  <!-- Grid of colored blocks using only 5 colors: blue, red, yellow, orange, green -->
+  <!-- Row 1 -->
+  <rect x="70" y="70" width="80" height="80" rx="12" ry="12" fill="#3c78d8"/> <!-- Blue -->
+  <rect x="160" y="70" width="80" height="80" rx="12" ry="12" fill="#3c78d8"/> <!-- Blue -->
+  <rect x="250" y="70" width="80" height="80" rx="12" ry="12" fill="#f1c232"/> <!-- Yellow -->
+  
+  <!-- Row 2 -->
+  <rect x="70" y="160" width="80" height="80" rx="12" ry="12" fill="#38761d"/> <!-- Green -->
+  <rect x="160" y="160" width="80" height="80" rx="12" ry="12" fill="#3c78d8"/> <!-- Blue -->
+  <rect x="250" y="160" width="80" height="80" rx="12" ry="12" fill="#38761d"/> <!-- Green -->
+  
+  <!-- Row 3 -->
+  <rect x="70" y="250" width="80" height="80" rx="12" ry="12" fill="#cc0000"/> <!-- Red -->
+  <rect x="160" y="250" width="80" height="80" rx="12" ry="12" fill="#cc0000"/> <!-- Red -->
+  <rect x="250" y="250" width="80" height="80" rx="12" ry="12" fill="#e69138"/> <!-- Orange -->
+  
+  <!-- Subtle grid lines with darker color -->
+  <path d="M150 70 L150 330 M240 70 L240 330 M70 150 L330 150 M70 240 L330 240" stroke="#152a46" stroke-width="2"/>
+  
+  <!-- Inner details for each block to add some depth without being too busy -->
+  <!-- Row 1 -->
+  <rect x="80" y="80" width="60" height="60" rx="8" ry="8" fill="#5b92e5" opacity="0.7"/> <!-- Blue lighter -->
+  <rect x="170" y="80" width="60" height="60" rx="8" ry="8" fill="#5b92e5" opacity="0.7"/> <!-- Blue lighter -->
+  <rect x="260" y="80" width="60" height="60" rx="8" ry="8" fill="#f6d568" opacity="0.7"/> <!-- Yellow lighter -->
+  
+  <!-- Row 2 -->
+  <rect x="80" y="170" width="60" height="60" rx="8" ry="8" fill="#4c9f2c" opacity="0.7"/> <!-- Green lighter -->
+  <rect x="170" y="170" width="60" height="60" rx="8" ry="8" fill="#5b92e5" opacity="0.7"/> <!-- Blue lighter -->
+  <rect x="260" y="170" width="60" height="60" rx="8" ry="8" fill="#4c9f2c" opacity="0.7"/> <!-- Green lighter -->
+  
+  <!-- Row 3 -->
+  <rect x="80" y="260" width="60" height="60" rx="8" ry="8" fill="#ee4444" opacity="0.7"/> <!-- Red lighter -->
+  <rect x="170" y="260" width="60" height="60" rx="8" ry="8" fill="#ee4444" opacity="0.7"/> <!-- Red lighter -->
+  <rect x="260" y="260" width="60" height="60" rx="8" ry="8" fill="#f3ac65" opacity="0.7"/> <!-- Orange lighter -->
+</svg>

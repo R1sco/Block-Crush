@@ -1,103 +1,101 @@
 # BlockCrush
 
-BlockCrush adalah game Match-3 sederhana yang dibangun dengan React Native dan Expo. Game ini mirip dengan Candy Crush di mana pemain mencocokkan tiga atau lebih blok dengan warna yang sama untuk mendapatkan poin.
+BlockCrush is a simple Match-3 game built with React Native and Expo. The game is similar to Candy Crush where players match three or more blocks of the same color to earn points.
 
 ![BlockCrush Game Screenshot](assets/images/gameplay.png)
 
-## 🎮 Fitur
+## 🎮 Features
 
-- 🧩 Mekanisme swap blok dengan satu klik
-- 🌈 Berbagai warna dan bentuk blok yang menarik
-- 🔄 Efek cascade untuk combo chains
-- 🎵 Efek suara yang menambah keseruan
-- 🎯 Sistem skor dengan multiplier
-- ⏱️ Mode permainan berbasis waktu dan gerakan
-- 🏆 Penyimpanan skor tertinggi
+- 🧩 One-click block swapping mechanism
+- 🌈 Various attractive block colors and shapes
+- 🔄 Cascade effects for combo chains
+- 🎵 Sound effects for added excitement
+- 🎯 Scoring system with multipliers
+- ⏱️ Time-based and move-based game modes
+- 🏆 High score storage
 
 ## 📱 Tech Stack
 
-- [React Native](https://reactnative.dev/) - Framework untuk membangun aplikasi mobile
-- [Expo](https://expo.dev/) - Platform pengembangan untuk React Native
-- [TypeScript](https://www.typescriptlang.org/) - Untuk type safety
-- [Zustand](https://github.com/pmndrs/zustand) - State management yang ringan dan powerful
-- [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/) - Untuk visual efek gradien
-- [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/) - Untuk audio
-- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - Untuk animasi performa tinggi
+- [React Native](https://reactnative.dev/) - Framework for building mobile applications
+- [Expo](https://expo.dev/) - Development platform for React Native
+- [TypeScript](https://www.typescriptlang.org/) - For type safety
+- [Zustand](https://github.com/pmndrs/zustand) - Lightweight and powerful state management
+- [Expo Linear Gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/) - For gradient visual effects
+- [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/) - For audio
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - For high-performance animations
 
-## 🚀 Cara Menjalankan
+## 🚀 How to Run
 
-### Prasyarat
+### Prerequisites
 
-- Node.js (versi 16 atau lebih tinggi)
-- npm atau yarn
+- Node.js (version 16 or higher)
+- npm or yarn
 - Expo CLI
-- Smartphone dengan Expo Go app atau Emulator
+- Smartphone with Expo Go app or Emulator
 
-### Installasi
+### Installation
 
-1. Clone repositori ini:
+1. Clone this repository:
 
 ```bash
 git clone https://github.com/[username]/BlockCrush.git
 cd BlockCrush
 ```
 
-2. Install dependensi:
+2. Install dependencies:
 
 ```bash
 npm install
-# atau
+# or
 yarn install
 ```
 
-3. Jalankan aplikasi:
+3. Run the application:
 
 ```bash
 npm start
-# atau
+# or
 yarn start
 ```
 
-4. Scan QR code dengan aplikasi Expo Go di smartphone, atau tekan 'a' untuk menjalankan di emulator Android, atau 'i' untuk emulator iOS.
+4. Scan the QR code with the Expo Go app on your smartphone, or press 'a' to run on Android emulator, or 'i' for iOS emulator.
 
-## 🎲 Cara Bermain
+## 🎲 How to Play
 
-1. **Tujuan**: Cocokkan 3 atau lebih blok dengan warna yang sama untuk mendapatkan poin dan menyingkirkannya dari papan.
-2. **Kontrol**:
-   - Klik pada satu blok untuk memilihnya
-   - Klik blok di sebelahnya untuk menukar posisi
-   - Blok hanya dapat ditukar jika menghasilkan kecocokan
-3. **Cascade Multiplier**: Saat blok tercocokkan dan hilang, blok di atasnya akan jatuh dan bisa menghasilkan kecocokan lagi. Setiap cascade berturut-turut akan meningkatkan multiplier skor.
-4. **End Game**: Permainan berakhir ketika waktu habis atau gerakan habis.
+1. **Objective**: Match 3 or more blocks of the same color to earn points and remove them from the board.
+2. **Controls**:
+   - Click on a block to select it
+   - Click on an adjacent block to swap positions
+   - Blocks can only be swapped if they result in a match
+3. **Cascade Multiplier**: When blocks match and disappear, blocks above will fall and may create new matches. Each consecutive cascade increases the score multiplier.
+4. **End Game**: The game ends when time runs out or moves are depleted.
 
-## 🧠 Struktur Project
+## 🧠 Project Structure
 
 ```
 BlockCrush/
-├── app/               # Halaman aplikasi (Expo Router)
-├── assets/            # Asset seperti gambar, audio, fonts
-├── components/        # Komponen React
-│   ├── Block.tsx      # Komponen blok individual
-│   ├── GameBoard.tsx  # Papan permainan utama
+├── app/               # Application pages (Expo Router)
+├── assets/            # Assets like images, audio, fonts
+├── components/        # React components
+│   ├── Block.tsx      # Individual block component
+│   ├── GameBoard.tsx  # Main game board
 │   └── ...
-├── constants/         # Nilai konstan dan konfigurasi
-├── store/             # State management dengan Zustand
-│   └── gameStore.ts   # Store untuk logika game
+├── constants/         # Constant values and configurations
+├── store/             # State management with Zustand
+│   └── gameStore.ts   # Store for game logic
 ├── types/             # TypeScript type definitions
 ```
 
-## 🛠️ Pengembangan Selanjutnya
+## 🛠️ Future Development
 
-Beberapa ide untuk pengembangan selanjutnya:
+Some ideas for future development:
 
-- Menambahkan mode multiplayer
-- Implementasi power-ups dan blok spesial
-- Integrasi dengan Firebase untuk leaderboard online
-- Meningkatkan efek visual dengan React Native Skia
-- Menambahkan level dengan tantangan berbeda
+- Adding multiplayer mode
+- Implementing power-ups and special blocks
+- Firebase integration for online leaderboards
+- Enhancing visual effects with React Native Skia
+- Adding levels with different challenges
 
-## 📄 Lisensi
+## 📄 License
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
-## 👏 Terima Kasih
+This project is licensed under the [MIT License](LICENSE).

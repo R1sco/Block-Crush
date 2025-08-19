@@ -2,19 +2,18 @@
 
 BlockCrush is a simple Match-3 game built with React Native and Expo. The game is similar to Candy Crush where players match three or more blocks of the same color to earn points.
 
-![BlockCrush Game Screenshot](assets/images/gameplay.png)
 
-## 🎮 Features
+## Features
 
-- 🧩 One-click block swapping mechanism
-- 🌈 Various attractive block colors and shapes
-- 🔄 Cascade effects for combo chains
-- 🎵 Sound effects for added excitement
-- 🎯 Scoring system with multipliers
-- ⏱️ Time-based and move-based game modes
-- 🏆 High score storage
+- One-click block swapping mechanism
+- Various attractive block colors and shapes
+- Cascade effects for combo chains
+- Sound effects for added excitement
+- Scoring system with multipliers
+- Time-based and move-based game modes
+- High score storage
 
-## 📱 Tech Stack
+## Tech Stack
 
 - [React Native](https://reactnative.dev/) - Framework for building mobile applications
 - [Expo](https://expo.dev/) - Development platform for React Native
@@ -24,7 +23,7 @@ BlockCrush is a simple Match-3 game built with React Native and Expo. The game i
 - [Expo AV](https://docs.expo.dev/versions/latest/sdk/av/) - For audio
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - For high-performance animations
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -70,7 +69,7 @@ yarn start
 3. **Cascade Multiplier**: When blocks match and disappear, blocks above will fall and may create new matches. Each consecutive cascade increases the score multiplier.
 4. **End Game**: The game ends when time runs out or moves are depleted.
 
-## 🧠 Project Structure
+## Project Structure
 
 ```
 BlockCrush/
@@ -86,7 +85,7 @@ BlockCrush/
 ├── types/             # TypeScript type definitions
 ```
 
-## 🛠️ Future Development
+## Future Development
 
 Some ideas for future development:
 
